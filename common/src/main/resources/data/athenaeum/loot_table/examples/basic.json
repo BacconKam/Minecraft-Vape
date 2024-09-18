@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "athenaeum:get_random_book"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
